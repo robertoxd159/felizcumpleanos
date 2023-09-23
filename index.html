@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="miAudio" src="audio.mp3" preload="auto"></audio>
+
+<button onclick="reproducirAudio()">Reproducir</button>
+    
+    <div class="container">
+        <div class="card">
+            <div class="outside">
+                <h1>Happy Birthday</h1>
+                <h3>My dear best friend,may god bless you with abundant joy on your birthday and always!<br>
+                    Thank you for always being by my side and having my back.</h3>
+            </div>
+            <div class="inside">
+                <img src="cakegif.gif"/>
+                <h3>¡Te envío una cantidad infinita de amor, alegría y felicidad en tu cumpleaños!
+                </h3>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="frames frame1">
+                <img src="imagen1.jpg" alt="">
+                <p>Sigue sonriendo sigue brillando</p>
+            </div>
+            <div class="frames frame2">
+                <img src="imagen2.jpg" alt="">
+                <p>Fuiste alguien muy especial para mí
+                </p>
+            </div>
+            <div class="frames frame3">
+                <img src="imagen3.jpg" alt="">
+                <p>Que Dios te bendiga en tu cumpleaños y siempre.</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+<script>
+	 const miAudio = document.getElementById("miAudio");
+	
+	function reproducirAudio() {
+	if (miAudio.pause) {
+	miAudio.play();
+	} else {
+	 miAudio.pause();
+	}
+	}
+</script>
+
+</body>
+</html>
