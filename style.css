@@ -100,8 +100,8 @@ body{
 }
 
 @media screen and (max-width: 700px) {
-
-    .container{
-        width:100%;
-    }
+	.block{
+		margin-top:550px;
+	}
 }
+
